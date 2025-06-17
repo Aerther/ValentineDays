@@ -1,0 +1,47 @@
+.heart-1 {
+    width: 50px;
+    left: 20%;
+    top: 36%;
+
+    transform: translate(-50%, -50%) rotate(25deg);
+}
+
+.heart-2 {
+    width: 50px;
+    left: 50%;
+    top: 35%;
+
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.heart-3 {
+    width: 50px;
+    left: 80%;
+    top: 36%;
+
+    transform: translate(-50%, -50%) rotate(65deg);
+}
+
+.heart-4 {
+    width: 50px;
+    left: 20%;
+    top: 84%;
+
+    transform: translate(-50%, -50%) rotate(-115deg);
+}
+
+.heart-5 {
+    width: 50px;
+    left: 50%;
+    top: 85%;
+
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.heart-6 {
+    width: 50px;
+    left: 80%;
+    top: 84%;
+
+    transform: translate(-50%, -50%) rotate(-155deg);
+}
