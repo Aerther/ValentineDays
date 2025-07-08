@@ -52,6 +52,38 @@ h2 {
     font-family: "Dancing Script";
 }
 
+figure {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.us-1 {
+  width: clamp(180px, 60vw, 300px);
+
+  top: 30%;
+  left: 72%;
+}
+
+.us-2 {
+  width: clamp(180px, 60vw, 300px);
+
+  top: 53%;
+  left: 30%;
+}
+
+.us-3 {
+  width: clamp(180px, 60vw, 300px);
+
+  top: 78%;
+  left: 70%;
+}
+
+img {
+  width: 100%;
+
+  border-radius: 15px;
+}
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
