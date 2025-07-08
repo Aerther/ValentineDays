@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(to right, pink, violet);
+    background-size: 600% 600%;
+    animation: gradientMove 8s ease infinite;
+
+    overflow: hidden;
+}
+
+#container {
+    height: 80%;
+    width: 80%;
+
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(127, 0, 255, 0.7);
+
+    position: relative;
+
+    background-color: snow;
+    z-index: 2;
+}
+
+h2 {
+    position: absolute;
+
+    top: 10%;
+    left: 50%;
+
+    width: 100%;
+    font-size: 35px;
+
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    font-family: "Dancing Script";
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

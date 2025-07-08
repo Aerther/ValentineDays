@@ -101,6 +101,8 @@ function getRandomRange(min, max) {
 let settingsDiv = document.getElementById("settings");
 
 settingsDiv.addEventListener("click", () => {
+    document.getElementById("btn-no").remove();
+    
     settingsContainer.style.display = "block";
     mainContainer.style.display = "none";
 
@@ -127,9 +129,9 @@ settingsForm.addEventListener("submit", function(e) {
 
     localStorage.setItem("type-action", data["type-action"]);
 
-    settingsContainer.style.display = "none";
-    mainContainer.style.display = "block";
-
     mainContainer.innerHTML = oldMainContainer
     reattachEventListeners();
+
+    settingsContainer.style.display = "none";
+    mainContainer.style.display = "block";
 });
