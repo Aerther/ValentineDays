@@ -24,7 +24,7 @@ btnNo.addEventListener("click", () => {
 });
 
 btnYes.addEventListener("click", () => {
-    location.replace("./pages/happy.html");
+    location.replace("./../../pages/happy.html");
 });
 
 // Function to re attach the event listeners
@@ -38,7 +38,7 @@ function reattachEventListeners() {
   });
 
   btnYes.addEventListener("click", () => {
-    location.replace("./pages/happy.html");
+    location.replace("./../../pages/happy.html");
   });
 };
 
