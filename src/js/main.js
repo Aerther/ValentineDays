@@ -23,10 +23,6 @@ btnNo.addEventListener("click", () => {
     typeFunction[typeAction]();
 });
 
-btnYes.addEventListener("click", () => {
-    location.replace("./../../pages/happy.html");
-});
-
 // Function to re attach the event listeners
 function reattachEventListeners() {
   btnYes = document.getElementById("btn-yes");
@@ -35,10 +31,6 @@ function reattachEventListeners() {
   btnNo.addEventListener("click", () => {
     let typeAction = localStorage.getItem("type-action");
     typeFunction[typeAction]();
-  });
-
-  btnYes.addEventListener("click", () => {
-    location.replace("./../../pages/happy.html");
   });
 };
 
